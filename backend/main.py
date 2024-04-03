@@ -14,7 +14,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-PRIVATE_KEY = "..."
+PRIVATE_KEY = "52f848a5-8f07-44af-a8bc-1aec6a7783e3"
 
 class User(BaseModel):
     username: str
