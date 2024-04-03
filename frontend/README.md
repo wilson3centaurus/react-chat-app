@@ -4,7 +4,7 @@
 
 This is a chat UI built entirely with Javascript (React specifically) 😃
 
-All you need to run the webstie is NPM installed on your computer!
+All you need to run the website is NPM installed on your computer!
 
 To run the website, clone the director, `cd` into it with your terminal:
 

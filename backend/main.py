@@ -1,8 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-
 from pydantic import BaseModel
-
 import requests
 
 app = FastAPI()
@@ -27,6 +25,6 @@ async def authenticate(user: User):
             "secret": user.username,
             "first_name": user.username,
         },
-        headers={ "Project-ID": PRIVATE_KEY }
+        headers={ "Private-Key": PRIVATE_KEY }
     )
     return response.json()
